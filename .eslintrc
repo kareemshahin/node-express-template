@@ -1,0 +1,18 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "prettier",
+    "plugin:security/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+  },
+  "plugins": [
+    "prettier",
+    "security"
+  ]
+}
